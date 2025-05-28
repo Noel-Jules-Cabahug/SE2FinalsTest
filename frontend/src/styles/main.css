@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+body h1, h2, h3, h4, h5, h6, p, input, button, span, div, label {
+    font-family: 'Libre Baskerville', serif !important;
+}
+
+body {
+    background: #fff;
+}
+
+.navbar {
+    box-shadow: none;
+    background: #fff;
+    border-bottom: none;
+    padding-top: 1rem;
+}
+
+.navbar img {
+    height: 100px;
+    max-height: none;
+    margin-bottom: 10px;
+}
+
+.navbar .button {
+    align-items: center;
+    font-size: 1.1rem;
+    display: flex;
+}
+
+.navbar .button img {
+    width: auto;
+    height: 56px;
+    margin: 0;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #e5e5e5;
+    margin: 0;
+}
+
+.section {
+    background: #fff;
+    padding-top: 3rem;
+}
+
+.title {
+    color: #222;
+    margin-bottom: 2.5rem;
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.custom-box-border {
+    color: #222;
+    text-align: center;
+    background: #fff;
+    border: 6px solid #283971;
+    border-radius: 1.3rem;
+    max-width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 24px;
+    box-shadow: 0 4px 16px #28397114;
+}
+
+.custom-box-border .content div p {
+    margin: 0.2;
+    line-height: 1.5;
+}
+
+.search-bar-pill {
+    box-sizing: border-box;
+    background: #f3f3f3;
+    border: 2px solid #e0e0e0;
+    border-radius: 2.5rem;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    padding: .5rem .5rem .5rem 1.5rem;
+    display: flex;
+    position: relative;
+    box-shadow: 0 2px 8px #3c3c3c12;
+    margin: 0 auto;
+}
+
+.search-bar-pill input {
+    color: #444;
+    box-shadow: none;
+    background: none;
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 0;
+    font-family: Libre Baskerville, serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.search-bar-pill button {
+    cursor: pointer;
+    background: #3a4fa4;
+    border: none;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    min-width: 64px;
+    height: 64px;
+    min-height: 64px;
+    transition: background .2s;
+    display: flex;
+    position: relative;
+    right: 5px;
+    box-shadow: 0 2px 8px #3c3c3c12;
+}
+
+.search-bar-pill button img {
+    width: 32px;
+    height: 32px;
+}
+
+.custom-footer {
+    background: #3A4FA4;
+    height: 143px;
+    padding: 1rem 0;
+}
+
+.custom-footer p {
+    font-size: 24px;
+    margin: 1rem 0;
+}
