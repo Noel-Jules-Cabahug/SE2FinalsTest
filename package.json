@@ -2,10 +2,10 @@
   "name": "google-oauth-app",
   "version": "1.0.0",
   "description": "Google OAuth Implementation",
-  "main": "Test.js",
+  "main": "src/app.js",
   "scripts": {
-    "start": "node Test.js",
-    "dev": "nodemon Test.js",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
     "test": "jest --watchAll --verbose"
   },
   "dependencies": {
